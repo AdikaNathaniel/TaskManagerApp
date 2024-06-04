@@ -1,0 +1,4 @@
+CREATE TABLE [TaskManagerApps]
+(
+    [Id] INT NOT NULL IDENTITY PRIMARY KEY
+)

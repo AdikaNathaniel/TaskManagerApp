@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQLocal",
+            "database": "BookInventorySystem",
+            "username": "root",
+            "password": "1234-adikanat",
+            "connectionTimeout": 30
+        }
+    ],
+    "cSpell.words": [
+        "appsettings",
+        "Hsts",
+        "SQLEXPRESS"
+    ]
+}
