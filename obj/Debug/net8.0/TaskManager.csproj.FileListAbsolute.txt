@@ -2229,3 +2229,4 @@ C:\Users\ACER\TaskManager\obj\Debug\net8.0\TaskManager.dll
 C:\Users\ACER\TaskManager\obj\Debug\net8.0\refint\TaskManager.dll
 C:\Users\ACER\TaskManager\obj\Debug\net8.0\TaskManager.pdb
 C:\Users\ACER\TaskManager\obj\Debug\net8.0\ref\TaskManager.dll
+C:\Users\ACER\TaskManager\obj\Debug\net8.0\TaskManager.sourcelink.json

@@ -159,4 +159,22 @@ main[b-usc2wfbx2a] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+
+
+    .task-icon[b-m4ryvbzdok] {
+    /* Add background image */
+    background-image: url('https://www.bing.com/ck/a?!&&p=062a347a32753737JmltdHM9MTcxNzI4NjQwMCZpZ3VpZD0xZGUyNjIxOC0wYTc5LTY3NmUtMWNhMS03MWM3MGI1NTY2NWImaW5zaWQ9NTU3Mg&ptn=3&ver=2&hsh=3&fclid=1de26218-0a79-676e-1ca1-71c70b55665b&u=a1L2ltYWdlcy9zZWFyY2g_cT1waWxlJTIwb2YlMjBib29rcyUyMGltYWdlJkZPUk09SVFGUkJBJmlkPUY4RjRFRUNFRTI4RTE5QTJGOTgzREEzNUVFODk1RTlGMDVGNzY2Qzk&ntb=1');
+    background-size: contain; /* Adjust the size of the background image */
+    
+    
+    
+    /* Set width and height */
+    width: 24px; /* Adjust width as needed */
+    height: 24px; /* Adjust height as needed */
+    
+    /* Additional styles for better appearance */
+    display: inline-block;
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
 }

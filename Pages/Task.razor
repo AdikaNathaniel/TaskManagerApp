@@ -3,6 +3,8 @@
 @using TaskManager.Data
 @inject IDbContextFactory<TaskManagerAppContext> DbFactory
 @using Microsoft.AspNetCore.Components
+@attribute [Authorize]
+
 
 
 <PageTitle>Task Manager App</PageTitle>
@@ -54,7 +56,44 @@
     </div>
 </div>
 
+@*<AuthorizeView>
+      <Authorized>
+           <button class="btn btn-primary"> Click Me</button>
+      </Authorized>
+
+        <NotAuthorized>
+              You are not Authorized
+      </NotAuthorized>
+      <Authorizing>
+          Authorizing...
+      </Authorizing>
+</AuthorizeView>*@
+
+
+
 @code {
+/*
+    [CascadingParameter] private Task<AuthenticationState> authenticationState { get; set;}
+
+        int currentCount = 10;
+        [Parameter] public int IncrementBy { get; set;} = 1;
+
+       public   async  Task IncrementCount()
+        {
+            var authState = await  authenticationState;
+
+            var user = authState.user;
+
+            if(user.Identity.IsAuthenticated)
+            {
+                currentCount += IncrementBy;
+            }else{
+                currentCount += IncrementBy;
+            }
+
+           
+        }
+       */ 
     private bool ShowConfirmDeleteOption = false;
     private string? ErrorMessage;
     private TaskManager.Task? _Task = null;
